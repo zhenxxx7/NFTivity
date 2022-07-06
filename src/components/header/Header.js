@@ -21,8 +21,8 @@ export default function Header() {
             <div className="flex md:order-2">
             <button
             type="button"
-            className="text-slate-700  bg-gradient-to-r from-[#69C9FF] to-[#00DACC] hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
-            Get Started
+            className="text-slate-700  bg-gradient-to-r from-[#FDAE8F] to-[#FD1C68] hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
+            Connect Wallet
           </button>
                 <Navbar.Toggle />
             </div>
@@ -37,13 +37,13 @@ export default function Header() {
                 About
                 </Navbar.Link>
                 <Navbar.Link href="/navbars">
-                Services
+                Explore
                 </Navbar.Link>
                 <Navbar.Link href="/navbars">
-                Pricing
+                Pages
                 </Navbar.Link>
                 <Navbar.Link href="/navbars">
-                Contact
+                Contact us
                 </Navbar.Link>
                 <Flowbite>
                   <DarkThemeToggle />
