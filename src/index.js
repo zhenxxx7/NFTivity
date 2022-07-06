@@ -3,11 +3,24 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Flowbite } from 'flowbite-react/lib/esm/components';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Flowbite
+  theme={{
+    theme: {
+      alert: {
+        color: {
+          primary: 'bg-primary'
+        }
+      }
+    }
+  }}
+>
     <App />
+</Flowbite>
   </React.StrictMode>
 );
 
