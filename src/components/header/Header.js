@@ -1,16 +1,55 @@
 import React from "react";
+import { Navbar, Flowbite, DarkThemeToggle } from "flowbite-react";
 
 export default function Header() {
-    return (
-      <div class="bg-white dark:bg-slate-800 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl">
-        <div>
-          <span class="inline-flex items-center justify-center p-2 bg-indigo-500 rounded-md shadow-lg">
-          </span>
+    return(
+        <div className="backdrop-blur-sm bg-opacity-80 drop-shadow-md shadow-sm bg-light dark:bg-dark dark:bg-opacity-80 fixed z-10 w-full top-0">
+            <Navbar
+            fluid={false}
+            rounded={true}
+            >
+            <Navbar.Brand href="https://flowbite.com/">
+                <img
+                src="https://flowbite.com/docs/images/logo.svg"
+                className="mr-3 h-6 sm:h-9"
+                alt="Flowbite Logo"
+                />
+                <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white ">
+                NFTivity
+                </span>
+            </Navbar.Brand>
+            <div className="flex md:order-2">
+            <button
+            type="button"
+            className="text-slate-700  bg-gradient-to-r from-[#69C9FF] to-[#00DACC] hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
+            Get Started
+          </button>
+                <Navbar.Toggle />
+            </div>
+            <Navbar.Collapse>
+                <Navbar.Link
+                href="/navbars"
+                active={true}
+                >
+                Home
+                </Navbar.Link>
+                <Navbar.Link href="/navbars">
+                About
+                </Navbar.Link>
+                <Navbar.Link href="/navbars">
+                Services
+                </Navbar.Link>
+                <Navbar.Link href="/navbars">
+                Pricing
+                </Navbar.Link>
+                <Navbar.Link href="/navbars">
+                Contact
+                </Navbar.Link>
+                <Flowbite>
+                  <DarkThemeToggle />
+                </Flowbite>
+            </Navbar.Collapse>
+            </Navbar>
         </div>
-        <h3 class="text-slate-900 dark:text-white mt-5 text-base font-medium tracking-tight">Writes Upside-Down</h3>
-        <p class="text-slate-500 dark:text-slate-400 mt-2 text-sm">
-          The Zero Gravity Pen can be used to write in any orientation, including upside-down. It even works in outer space.
-        </p>
-      </div>
-    );
-}
+    )
+};
