@@ -1,7 +1,8 @@
 import React from "react";
 import { Flowbite } from "flowbite-react/lib/esm/components";
 import { DarkThemeToggle } from "flowbite-react/lib/esm/components";
-import Header from "./components/Header";
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       <DarkThemeToggle />
     </Flowbite>
     <Header />
+    <Footer />
     </div>
     
   )
