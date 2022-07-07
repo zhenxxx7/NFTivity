@@ -27,3 +27,20 @@
     align-self: stretch;
     flex-grow: 0;
 }
+
+.hr{
+    box-sizing: border-box;
+
+width: 670px;
+height: 570px;
+right: 375px;
+top: calc(50% - 570px/2);
+}
+
+.txhr2{
+    background: linear-gradient(207.67deg, #FDAE8F 3.43%, #FD1C68 104.7%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
