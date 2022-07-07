@@ -28,6 +28,13 @@
     flex-grow: 0;
 }
 
+.hmimg{
+    position: absolute;
+width: 670px;
+height: 570px;
+right: 375px;
+top: calc(50% - 570px/2);
+}
 
 .txhr2{
     background: linear-gradient(207.67deg, #FDAE8F 3.43%, #FD1C68 104.7%);
