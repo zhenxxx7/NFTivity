@@ -2,7 +2,7 @@ import React from "react";
 import './hero.css';
 
 
-export default function Home() {
+export default function Hero() {
     return (
       <div class="bg-primary dark:bg-secondary rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl">
         <div>

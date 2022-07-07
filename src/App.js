@@ -1,14 +1,14 @@
 import React from "react";
-import Header from "./components/header/Header";
+import Home from "./pages/home/Home";
 import Footer from "./components/footer/Footer";
-import Home from "./components/home/home";
+import Hero from "./components/hero/Hero";
 import Slidecarousel from "./components/slidecarousel/Slidecarousel";
 
 export default function App() {
   return (
     <div class="bg-white dark:bg-slate-800">
-    <Header />
     <Home />
+    <Hero />
     <Slidecarousel />
     <Footer />
     </div>

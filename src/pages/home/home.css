@@ -1,0 +1,29 @@
+.heromid{
+    position: absolute;
+    width: 1920px;
+    height: 600px;
+    left: 0px;
+    top: 100px;
+}
+
+.hero{
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    /* or 133% */
+
+
+    /* Neutral / White */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
