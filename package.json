@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@trendyol-js/react-carousel": "^3.0.0",
+    "carousel-react-rcdev": "^0.0.4",
     "cra-template": "1.2.0",
     "flowbite": "^1.4.7",
     "flowbite-react": "^0.1.2",

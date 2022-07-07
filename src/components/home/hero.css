@@ -1,0 +1,10 @@
+/* @use "../../scss/" as *; */
+
+.hero{
+    box-sizing: border-box;
+    position: absolute;
+    width: 670px;
+    height: 570px;
+    right: 375px;
+    top: calc(50% - 570px/2);
+}
