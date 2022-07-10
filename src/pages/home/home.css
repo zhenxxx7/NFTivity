@@ -43,3 +43,8 @@ top: calc(50% - 570px/2);
     background-clip: text;
     text-fill-color: transparent;
 }
+
+.hr{
+    right: 375px;
+    top: calc(50% - 570px/2);
+}
